@@ -1,0 +1,182 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+header {
+  margin : auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.top-header {
+  border-bottom:  solid 3px #efefef;
+  padding:10px 10px 15px 10px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+/* ここら辺課題！センターと右で分けたいけど、一直線上に */
+
+.top-header li {
+  width: 100%;
+  list-style: none;
+  cursor: default;
+}
+
+.bottom-header{
+  margin: auto;
+  text-align: center;
+  padding: 200px 0;
+  /* margin-right: 10px; */
+}
+
+.center {
+  margin-top: 10px;
+}
+
+.right {
+  margin-right: 80px;
+}
+
+
+.center a {
+  margin-right: 50px;
+  font-weight: bold;
+  color: #000;
+  /* border: ;  */
+  text-decoration: none;
+  /* font-size: px; */
+}
+
+.wo {
+  margin-left: 280px;
+}
+
+.rk {
+  font-size: 18px;
+  cursor: default;
+}
+
+.clear {
+  float: left;
+}
+
+.fa-twitter {
+  float: right;
+  margin-right: 100px;
+  font-size: xx-large;
+  color: #00acee;
+}
+
+.fa-twitter:hover {
+  filter:drop-shadow(3px 4px #c0c0c0) ;
+  transition: all 0s;
+  position: relative;
+  top: -4px;
+  left: -3px;
+}
+
+.fa-twitter:active{
+  transition: 0s;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  filter:drop-shadow(3px 4px #fff) ;
+}
+
+.twitter {
+  line-height: 32px;
+}
+
+.fa-instagram {
+  float: right;
+  margin-right: 30px;
+  font-size: xx-large;
+  color: deeppink;
+}
+
+.fa-instagram:hover {
+  filter:drop-shadow(3px 4px #c0c0c0) ;
+  transition: all 0s;
+  position: relative;
+  top: -4px;
+  left: -3px;
+}
+
+.fa-instagram:active{
+  transition: 0s;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  filter:drop-shadow(3px 4px #fff) ;
+}
+
+/* .a-line {
+  ;
+} */
+
+.name {
+  margin-right: 15px;
+  letter-spacing: 20px;
+  font-size: 50px;
+  cursor: default;
+}
+
+.bottom-header p {
+  margin-right: 15px;
+  letter-spacing: 5px;
+  cursor: default;
+}
+
+.rk:hover {/*ホバー時*/
+  color:#668ad8;/*文字色*/
+  transition: .2s;/*ゆっくり変化*/
+}
+
+.Works {
+}
+
+/* .working {
+  background-color: #d3d3d3;
+} */
+
+.pr {
+}
+
+.pr h2 {
+  font-size: 35px;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+.pr p {
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+
+.working {
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 50px;
+  height: 780px;
+
+}
+
+.work {
+  width: 33%;
+  flex: auto;
+  float: left;
+  padding-top: 30px;
+}
+
+.work p {
+  margin: 0px 0;
+}
