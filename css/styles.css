@@ -135,26 +135,49 @@ header {
   cursor: default;
 }
 
-.rk:hover {/*ホバー時*/
-  color:#668ad8;/*文字色*/
-  transition: .2s;/*ゆっくり変化*/
+.rk:hover {
+  /* ホバー時 */
+   color:#668ad8;/* 文字色 */
+  /* transition: .2s;ゆっくり変化 */
+  filter:drop-shadow(3px 4px #c0c0c0) ;
+  transition: all 0s;
+  position: relative;
+  top: -4px;
+  left: -3px;
 }
 
-.Works {
+.rk:active {
+  color: #000;
+  transition: 0s;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  filter:drop-shadow(3px 4px #fff) ;
+}
+
+/* .Works {
 }
 
 /* .working {
   background-color: #d3d3d3;
 } */
 
-.pr {
-}
+/* .pr {
+} */ 
+
+
+/* ーーーーここからworks－ーーー */
 
 .pr h2 {
   font-size: 35px;
-  margin: 10px 0;
+  margin: 10px 0 15px 0;
   letter-spacing: 2px;
 }
+
+/* .pr h2 {
+  font-size: 50px;
+} */
+
 
 .pr p {
   margin: 5px 0;
@@ -179,4 +202,67 @@ header {
 
 .work p {
   margin: 0px 0;
+}
+
+/* --------Feature------ */
+
+
+.top-feature {
+  text-align: center;
+  /* background-color: #00acee; */
+  margin-top: 60px;
+} 
+
+.top-feature h2 {
+  font-size: 35px;
+  margin: 29px 0 15px 0;
+  letter-spacing: 2px;
+}
+
+.top-feature p {
+  /* font-size: 35px; */
+  /* margin: 29px 0 15px 0; */
+  letter-spacing: 1px;
+}
+
+
+
+.bottom-feature {
+  display: flex;
+  /* background-color: #00acee; */
+  /* padding: 20px; */
+}
+
+.Feature {
+  width: 70%;
+  margin: auto;
+  /* background-color: #668ad8; */
+  /* text-align: center; */
+}
+
+.text-f {
+  padding: 0 20px;
+  width: 50%;
+}
+
+.text-f h3 {
+  margin: 45px 0 10px 0;
+  /* font-weight: normal; */
+  font-size: 16px;
+}
+
+.text-f p {
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+/* ここからabout */
+
+.about {
+  background-color: #dcdcdc;
+}
+
+.about-top {
+  text-align: center;
 }
