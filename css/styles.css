@@ -229,13 +229,15 @@ header {
 
 .bottom-feature {
   display: flex;
+  margin: auto;
+  width: 80%;
   /* background-color: #00acee; */
   /* padding: 20px; */
 }
 
 .Feature {
-  width: 70%;
-  margin: auto;
+  /* width: 70%; */
+  margin-top: 100px;
   /* background-color: #668ad8; */
   /* text-align: center; */
 }
@@ -261,8 +263,82 @@ header {
 
 .about {
   background-color: #dcdcdc;
+  padding: 50px;
+  margin-top: 100px;
 }
 
 .about-top {
   text-align: center;
+}
+
+.about-top h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin: 10px 0 15px 0;
+}
+
+.about-top p {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.about-main {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.about-icon {
+  margin-right: 60px;
+}
+
+.prf {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #a9a9a9;
+  background-color: #87ceeb;
+}
+
+.about-pr {
+  letter-spacing: 2px;
+  font-size: 16px
+}
+
+/* ここからSkill */
+
+.Skill {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.skill-top {
+  text-align: center;
+}
+
+.skill-top h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.i {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgba(238, 238, 238, 0.801);
+  background-color: #393e46;
+}
+
+.skill {
+  display: flex;
+  width: 50%;
+  flex: auto;
+}
+
+.skills {
+  /* background-color: antiquewhite; */
+  flex-wrap: wrap;
+  display: flex;
 }
